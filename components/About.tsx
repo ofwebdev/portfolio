@@ -38,7 +38,7 @@ const About = () => {
             </p>
             <br />
             <p>
-              I graduated from Barishal Information Technology Collage (BITC),in 2021
+              I graduated from Barishal Information Technology Collage (BITC), in 2021
               with a Bachelors of Business Administration and have been working in the
               field ever since.
             </p>

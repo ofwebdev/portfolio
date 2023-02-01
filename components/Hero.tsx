@@ -24,7 +24,7 @@ const Hero = () => {
             <span className="font-semibold text-teal-600">
               Software Engineer{" "}
             </span>
-            based in Bangladesh, CA. Working towards creating software that
+            based in Bangladesh, Dhaka. Working towards creating software that
             makes life easier and more meaningful.
           </p>
           <Link

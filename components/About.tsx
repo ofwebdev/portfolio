@@ -34,12 +34,12 @@ const About = () => {
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
               <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+              based in Bangladesh, Dhaka.
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
+              I graduated from Barishal Information Technology Collage (BITC),in 2021
+              with a Bachelors of Business Administration and have been working in the
               field ever since.
             </p>
             <br />

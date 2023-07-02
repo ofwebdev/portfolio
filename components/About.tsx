@@ -1,19 +1,22 @@
-import React from "react"
-import Image from "next/image"
+import React from "react";
+import Image from "next/image";
 
 const skills = [
   { skill: "HTML" },
   { skill: "CSS" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
-  { skill: "Python" },
-  { skill: "React" },
+  { skill: "React.js" },
   { skill: "Next.js" },
+  { skill: "Node.js" },
+  { skill: "Bootstrap" },
+  { skill: "Material UI" },
   { skill: "Tailwind CSS" },
   { skill: "Git" },
   { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
-]
+  { skill: "RedHat Linux" },
+  { skill: "Windows Server" },
+];
 
 const About = () => {
   return (
@@ -38,9 +41,9 @@ const About = () => {
             </p>
             <br />
             <p>
-              I graduated from Barishal Information Technology College (BITC), in 2021
-              with a Bachelors of Business Administration and have been working in the
-              field ever since.
+              I graduated from Barishal Information Technology College (BITC),
+              in 2021 with a Bachelors of Business Administration and have been
+              working in the field ever since.
             </p>
             <br />
             <p>
@@ -72,7 +75,7 @@ const About = () => {
                   >
                     {item.skill}
                   </p>
-                )
+                );
               })}
             </div>
             <Image
@@ -86,7 +89,7 @@ const About = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default About
+export default About;

@@ -1,8 +1,8 @@
-"use client" // this is a client component
-import React from "react"
-import Image from "next/image"
-import { Link } from "react-scroll/modules"
-import { HiArrowDown } from "react-icons/hi"
+"use client"; // this is a client component
+import React from "react";
+import Image from "next/image";
+import { Link } from "react-scroll/modules";
+import { HiArrowDown } from "react-icons/hi";
 
 const Hero = () => {
   return (
@@ -18,7 +18,9 @@ const Hero = () => {
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Omor!</h1>
+          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">
+            Hi, I&#39;m Omor!
+          </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
             <span className="font-semibold text-teal-600">
@@ -29,7 +31,7 @@ const Hero = () => {
           </p>
           <Link
             to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 cursor-pointer"
             activeClass="active"
             spy={true}
             smooth={true}
@@ -38,6 +40,13 @@ const Hero = () => {
           >
             Projects
           </Link>
+
+          <a
+            href="https://drive.google.com/file/d/1i_Je-Uaxc7SBmzQn6pSPeLXuxBZ2Driz/view?usp=drive_link"
+            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 ml-2 cursor-pointer"
+          >
+            Resume
+          </a>
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">
@@ -53,7 +62,7 @@ const Hero = () => {
         </Link>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

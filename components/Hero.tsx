@@ -42,7 +42,7 @@ const Hero = () => {
           </Link>
 
           <a
-            href="https://drive.google.com/file/d/1i_Je-Uaxc7SBmzQn6pSPeLXuxBZ2Driz/view?usp=drive_link"
+            href="https://docs.google.com/document/d/1DoDJYqQpL7CNh3yfYz2AqVULMUT3Q9BRxMHhvxw0K3U/edit?usp=sharing"
             className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 ml-2 cursor-pointer"
           >
             Resume
